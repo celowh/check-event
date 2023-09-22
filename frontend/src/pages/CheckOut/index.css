@@ -1,0 +1,88 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   background-color: #202024;
+   color: #fff;
+   font-family: sans-serif;
+ }
+ 
+ .container {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ 
+ .form {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+ }
+ 
+ .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .form-group input {
+    height: 30px;
+    background-color: #ccc;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+ }
+ 
+ .form-group .btn-checkin {
+    height: 30px;
+    background-color: #000;
+    border: 0;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.5s;
+ }
+ 
+ .form-group button:hover {
+    background-color: #fff;
+    color: #000;
+ }
+ 
+ .form-group .btn-history {
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-top: 10px;
+ }
+ 
+ .error {
+    margin-top: 5px;
+    color: #ff0000;
+    width: 100%;
+ }
